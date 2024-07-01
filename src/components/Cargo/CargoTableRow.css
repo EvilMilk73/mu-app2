@@ -1,0 +1,10 @@
+.NoShadow {
+    box-shadow: none !important;
+}
+tr{
+    user-select: none;
+}
+.description-closed {
+   border-bottom: none !important ; 
+  }
+  

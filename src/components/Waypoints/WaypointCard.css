@@ -1,0 +1,7 @@
+
+.waypointCard:hover{
+ cursor: default;   
+}
+.cardRow{
+    justify-content: space-between;
+}

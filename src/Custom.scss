@@ -1,0 +1,31 @@
+@import "~bootstrap/scss/functions.scss"; 
+@import "~bootstrap/scss/variables.scss";
+
+
+$menuBg: #0A1624;
+
+$PrimaryColor: #0F3158;
+$SecondaryColor : #8A8F9B;
+$theme-colors: map-merge($theme-colors, (
+  "menu-bg": $menuBg,
+  "primary": $PrimaryColor,
+  "secondary": $SecondaryColor
+));
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $PrimaryColor;
+  border-radius: 1rem;
+  
+}
+
+@import "~bootstrap/scss/bootstrap.scss";                                     

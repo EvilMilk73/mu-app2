@@ -1,0 +1,33 @@
+
+.searchDropDown:focus {
+  box-shadow: none !important;
+}
+.searchDropDown:focus {
+  border-color: #0f3158 !important;
+  border-width: 1px !important;
+}
+.searchDropDownOpened {
+  z-index: 1;
+  /* if needed */
+}
+.dropDown {
+  border-color: #0f3158;
+  border-width: 1px;
+  border-style: solid;
+  position: absolute;
+  top:140%;
+  background-color: white;
+  max-height: 20rem;
+  overflow-y: overlay;
+}
+.dropDownElement {
+  display: block !important;
+}
+.dropDownElement:hover {
+  background-color: #0f3158;
+  color: white;
+  cursor: pointer;
+}
+.dropDownTextSpan {
+  display: block !important;
+}

@@ -1,0 +1,62 @@
+.DataInput {
+  width: 25rem;
+}
+.emptyButton {
+  color: #0f3158 !important;
+}
+.emptyButton:hover {
+  color: #0f3158 !important;
+  border-width: 2px !important;
+}
+.mapButton {
+  z-index: 1;
+  height: 3em;
+  width: 3rem !important;
+  border-color: #0f3158 !important;
+  border-radius: 50% !important;
+}
+.acceptButton {
+  background-color: #0f3158 !important;
+}
+.declineButton {
+  background-color: white !important;
+}
+.mapButtonsContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: fit-content !important;
+}
+.mapSearchBarContainer {
+  z-index: 1;
+  position: absolute;
+  left: 1rem;
+  top: 0.75rem;
+}
+
+.disabledMapDiv {
+  pointer-events: none;
+}
+.disabledMapDiv * {
+  pointer-events: none;
+}
+.mapMark {
+  background-image: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  background-color: yellow;
+}
+
+.mapDiv .mapboxgl-popup-content {
+  width: 10rem !important;
+  height: 3rem !important;
+  border-radius: 8px;
+  /* border: solid;
+  border-color: #0f3158 !important;
+  border-width: 1px !important; */
+  user-select: none;
+}
+.mapDiv .mapboxgl-popup-tip {
+  visibility: hidden;
+}

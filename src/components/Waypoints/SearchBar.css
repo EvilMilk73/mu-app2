@@ -1,0 +1,53 @@
+.searchBar {
+  z-index: 1;
+  border-radius: 1rem !important;
+  transition: border-radius 0.1s ease !important;
+  
+  
+}
+.searchBar:focus{
+  box-shadow: none !important;
+  border-color: white !important;
+  border-bottom-color:#dee2e6 !important;
+}
+.searchBarOpened {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.inputContainer{
+  width: fit-content;
+  height: 2rem;
+  position: relative;
+}
+.inputCancelButton{
+  height:auto !important;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translate(0 , -50%);
+}
+.inputCancelButton :hover{
+  cursor: pointer;
+}
+.resultBox {
+  background-color: white;
+  max-height: 20rem;
+  border-bottom-left-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
+  overflow-y:overlay;
+  
+}
+.resultElement {
+  display: block !important;
+}
+.resultElement:hover {
+  background-color: #0f3158;
+  color: white;
+  cursor:pointer;
+}
+.resultTextSpan{
+  display: block !important;
+}
+.greyText{
+  color:grey !important;
+}

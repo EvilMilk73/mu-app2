@@ -1,0 +1,22 @@
+
+.nav-link{
+    cursor: pointer;
+}
+.menu-item:hover{
+    background-color: #0F3158;
+}
+#main{
+    max-width: 85%;
+    width: 85%;
+    height: 90vh;
+    overflow-y: auto;
+    margin-left: 15%;
+}
+#LayoutContainer{
+    min-height: 100vh;
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
